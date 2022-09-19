@@ -38,6 +38,7 @@ header div {
 
   transition: transform 0.3s;
   animation: fromTop 0.7s 0.2s backwards;
+  cursor: zoom-in;
 }
 
 header div:hover {

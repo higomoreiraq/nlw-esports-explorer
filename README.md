@@ -12,6 +12,8 @@ Este projeto foi desenvolvido junto do Instrutor Mayk Brito, onde pude revisar e
 
 O Objetivo do projeto era criar uma página em homenagem ao dia do gamer (29 de agosto), que contesse seus jogos preferidos, canais de streamer relacionados a eles, e por fim, suas redes para contato.
 
+Ao clicar em um dos jogos listados, você será redirecionado para um emulador online contendo o respectivo jogo, pronto para ser jogado.
+
 ## Aprendizados:
 
 - HTML Semântico;

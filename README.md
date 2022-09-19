@@ -32,4 +32,4 @@ ou clique aqui:
 
 
 ## 🔗 Contatos
-[![bio](https://img.shields.io/badge/bio_higomoreiraq-9572FC?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.linkedin.com/)
+[![bio](https://img.shields.io/badge/bio_higomoreiraq-9572FC?style=for-the-badge&logo=ko-fi&logoColor=white)](https://higomoreiraq.github.io/Bio-Higo-Moreira/)

@@ -3,7 +3,7 @@
 #### Tema: Gamers
 #### Trilha: Explorer
 
-Este projeto foi desenvolvido junto do Instrutor Mayk Brito, onde pude revisar e consolidar muitas bases de HTML e CSS.
+Este projeto foi desenvolvido junto ao Instrutor Mayk Brito, onde pude revisar e consolidar muitas bases de HTML e CSS.
 
 ![image](https://user-images.githubusercontent.com/107502907/190921213-83338085-7bdc-4967-8ccd-6a00cb066081.png)
 

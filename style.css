@@ -24,13 +24,13 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 0.6rem;
   background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: rgba(211, 211, 211, 0.1);
-  border-radius: 20px;
+  border-radius: 2rem;
 }
 
 header {

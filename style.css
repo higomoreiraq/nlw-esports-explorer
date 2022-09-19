@@ -20,6 +20,17 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #121214;
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(211, 211, 211, 0.1);
+  border-radius: 20px;
 }
 
 header {

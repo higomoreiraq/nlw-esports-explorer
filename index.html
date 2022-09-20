@@ -13,6 +13,12 @@
   <link rel="stylesheet" href="style.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script defer src="./script.js"></script>
 </head>
 
 <body>
@@ -26,44 +32,103 @@
 
   <main>
     <section>
-      <div>
+      <div id="games-display">
         <h2>Meus jogos</h2>
         <p>Os games que eu mais curto jogar!</p>
 
-        <ul class="games-list">
-          <li>
-            <a 
-              href="https://emulatorgames.online/games/snes/super-bomberman-5"
-              target="_blank"
-              title="Super Bomberman 5 - SNES">
-              <img 
-                src="./images/snes-super-bomberman-5.png" 
-                alt="Imagem de capa do jogo 'Super Bomberman 5' do console 'Super Nintendo'">
-            </a>
-          </li>
+        <div class="swiper mySwiper">
 
-          <li>
-            <a 
-              href="https://emulatorgames.online/games/n64/mario-kart-64"
-              target="_blank"
-              title="Mario Kart 64 - N64">
-              <img 
-                src="./images/n64-mario-kart-64.png" 
-                alt="Imagem de capa do jogo 'Mario Kart 64' do console 'Nintendo 64'">
-            </a>
-          </li>
+          <ul class="games-list swiper-wrapper">
+            <li class="swiper-slide">
+              <a 
+                href="https://emulatorgames.online/games/snes/super-bomberman-5"
+                target="_blank"
+                title="Super Bomberman 5 - SNES">
+                  <figure>
+                    <img 
+                    src="./images/snes-super-bomberman-5.png" 
+                    alt="Imagem de capa do jogo 'Super Bomberman 5' do console 'Super Nintendo'">
+                    <figcaption>Super Bomberman 5</figcaption>
+                  </figure>
+              </a>
+            </li>
 
-          <li>
-            <a 
-              href="https://emulatorgames.online/games/ps1/crash-bandicoot-2-cortex-strikes-back"
-              target="_blank"
-              title="Crash Bandicoot 2 - PS1">
-              <img 
-                src="./images/ps1-crash-bandicoot-2.png" 
-                alt="Imagem de capa do jogo 'Crash Bandicoot 2' do console 'PlayStation One'">
-            </a>
-          </li>
-        </ul>
+            <li class="swiper-slide">
+              <a 
+                href="https://emulatorgames.online/games/n64/mario-kart-64"
+                target="_blank"
+                title="Mario Kart 64 - N64">
+                  <figure>
+                    <img 
+                      src="./images/n64-mario-kart-64.png" 
+                      alt="Imagem de capa do jogo 'Mario Kart 64' do console 'Nintendo 64'">
+                      <figcaption>Mario Kart 64</figcaption>
+                  </figure>
+              </a>
+            </li>
+        
+            <li class="swiper-slide">
+              <a 
+                href="https://emulatorgames.online/games/ps1/crash-bandicoot-2-cortex-strikes-back"
+                target="_blank"
+                title="Crash Bandicoot 2 - PS1">
+                  <figure>
+                    <img 
+                      src="./images/ps1-crash-bandicoot-2.png" 
+                      alt="Imagem de capa do jogo 'Crash Bandicoot 2' do console 'PlayStation One'">
+                    <figcaption>Crash Bandicoot 2</figcaption>
+                  </figure>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a 
+                href="https://emulatorgames.online/games/snes/sunset-riders"
+                target="_blank"
+                title="Sunset Riders - SNES">
+                <figure>
+                  <img 
+                    src="images/snes-sunset-riders.png" 
+                    alt="Imagem de capa do jogo 'Sunset Riders' do console 'Super Nintendo'">
+                    <figcaption>Sunset Riders</figcaption>
+                </figure>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a 
+                href="https://emulatorgames.online/games/sega/sonic-mania-edition"
+                target="_blank"
+                title="Sonic Mania - SEGA">
+                  <figure>
+                    <img 
+                      src="./images/sega-sonic-mania.png" 
+                      alt="Imagem de capa do jogo 'Sonic Mania' do console 'SEGA'">
+                    <figcaption>Sonic Mania</figcaption>
+                  </figure>
+              </a>
+            </li>
+
+            <li class="swiper-slide">
+              <a 
+                href="https://emulatorgames.online/games/n64/super-smash-bros"
+                target="_blank"
+                title="Super Smash Bros - N64">                 
+                  <figure>
+                    <img 
+                      src="./images/n64-super-smash-bros.png" 
+                      alt="Imagem de capa do jogo 'Super Smash Bros' do console 'Nintendo 64'">
+                      <figcaption>Super Smash Bros</figcaption>
+                  </figure>
+              </a>
+            </li>
+
+          </ul>
+          
+          <div id="btn-page" class="swiper-pagination"></div>
+
+        </div>
+
       </div>
     </section>
 
@@ -78,9 +143,9 @@
               href="https://www.youtube.com/c/RuiVoPlay"
               target="_blank"
               title="RuiVoPlay">
-              <img 
-                src="https://yt3.ggpht.com/ytc/AMLnZu8_vNqzGEK9A3ZMfFoDAQAs6NyPBaTxF7BsFNwlww=s88-c-k-c0x00ffffff-no-rj" 
-                alt="Imagem do perfil do canal 'RuiVoPlay'">
+                <img 
+                  src="https://yt3.ggpht.com/ytc/AMLnZu8_vNqzGEK9A3ZMfFoDAQAs6NyPBaTxF7BsFNwlww=s88-c-k-c0x00ffffff-no-rj" 
+                  alt="Imagem do perfil do canal 'RuiVoPlay'">
             </a>
           </li>
 
@@ -89,9 +154,9 @@
               href="https://www.youtube.com/c/Jo%C3%A3oViniciusGameTec"
               target="_blank"
               title="GameInTech - João Vinicius">
-              <img 
-                src="https://yt3.ggpht.com/ytc/AMLnZu9zDbznIo_jONnme1Bk0pEIxwPkp16NOc3J_sHJtw=s88-c-k-c0x00ffffff-no-rj" 
-                alt="Imagem do perfil do canal 'GameInTech - João Vinicius'">
+                <img 
+                  src="https://yt3.ggpht.com/ytc/AMLnZu9zDbznIo_jONnme1Bk0pEIxwPkp16NOc3J_sHJtw=s88-c-k-c0x00ffffff-no-rj" 
+                  alt="Imagem do perfil do canal 'GameInTech - João Vinicius'">
             </a>
           </li>
 
@@ -100,12 +165,13 @@
               href="https://www.youtube.com/channel/UC32APiyRrnxIEhpyI5_rVug"
               target="_blank"
               title="D Games Brasil">
-              <img 
-                src="https://yt3.ggpht.com/inuGeaA4rvWPiY0-hse-jwxqonq6HeD5iTtwsbQhGn0VH51wvSA1XGkGs0IixRUPgxxxgYRHgt8=s88-c-k-c0x00ffffff-no-rj" 
-                alt="Imagem do perfil do canal 'D Games Brasil'">
+                <img 
+                  src="https://yt3.ggpht.com/inuGeaA4rvWPiY0-hse-jwxqonq6HeD5iTtwsbQhGn0VH51wvSA1XGkGs0IixRUPgxxxgYRHgt8=s88-c-k-c0x00ffffff-no-rj" 
+                  alt="Imagem do perfil do canal 'D Games Brasil'">
             </a>
           </li>
         </ul>
+
       </div>
     </section>
 
@@ -120,10 +186,10 @@
               href="https://instagram.com/higomoreiraq"
               target="_blank"
               title="Instagram">
-              <img 
-                class="social-icon"
-                src="./images/icon-instagram.png" 
-                alt="Imagem do ícone da rede social Instagram">
+                <img 
+                  class="social-icon"
+                  src="./images/icon-instagram.png" 
+                  alt="Imagem do ícone da rede social Instagram">
             </a>
           </li>
 
@@ -132,10 +198,10 @@
               href="https://www.linkedin.com/in/higo-moreira-751797100/"
               target="_blank"
               title="LinkedIn">
-              <img
-                class="social-icon" 
-                src="./images/icon-linkedin.png" 
-                alt="Imagem do ícone da rede social LinkedIn">
+                <img
+                  class="social-icon" 
+                  src="./images/icon-linkedin.png" 
+                  alt="Imagem do ícone da rede social LinkedIn">
             </a>
           </li>
 
@@ -144,10 +210,10 @@
               href="https://github.com/higomoreiraq"
               target="_blank"
               title="Github">
-              <img
-                class="social-icon"
-                src="./images/icon-github.png" 
-                alt="Imagem do ícone da rede social Github">
+                <img
+                  class="social-icon"
+                  src="./images/icon-github.png" 
+                  alt="Imagem do ícone da rede social Github">
             </a>
           </li>
 
@@ -156,13 +222,14 @@
               href="mailto:higomoreiraq@gmail.com"
               target="_blank"
               title="Gmail">
-              <img
-                class="social-icon"
-                src="./images/icon-email.png" 
-                alt="Imagem do ícone do Gmail">
+                <img
+                  class="social-icon"
+                  src="./images/icon-email.png" 
+                  alt="Imagem do ícone do Gmail">
             </a>
           </li>
         </ul>
+
       </div>
     </section>
   </main>

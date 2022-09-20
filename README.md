@@ -23,15 +23,11 @@ Ao clicar em um dos jogos listados, você será redirecionado para um emulador o
 - Implantação na nuvem.
 
 
-## Deploy
+## Preview
 
-Para fazer o deploy desse projeto acesse:
+Para conferir esse projeto acesse:
 
-- https://higomoreiraq.io/nlw-sports-explorer
-
-ou clique aqui:
-
-[![deploy](https://img.shields.io/badge/run_deploy-9572FC?style=for-the-badge&logo=ko-fi&logoColor=white)](https://higomoreiraq.github.io/nlw-esports-explorer/)
+- https://higomoreiraq.github.io/nlw-esports-explorer
 
 
 ## 🔗 Contatos
